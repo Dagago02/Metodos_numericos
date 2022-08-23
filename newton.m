@@ -4,7 +4,7 @@ function f = newton(x, y)
 end
 
 function f = make_pol(x, B)
-    xx = x;  % Change variable name
+    xx = x; 
     syms x
     f = B(1);
     for i = 2:length(B)
